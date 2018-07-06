@@ -25,7 +25,7 @@ gulp.task('default', () => {
 			ms: false,
 			ren: false,
 			rotate: {
-				deg: 1
+				deg: 123
 			},
 			roulette: 4,
 			slowlyGrowText: {
