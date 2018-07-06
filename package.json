@@ -1,17 +1,17 @@
 {
-  "name": "PostCSSPresentation",
-  "version": "1.0.0",
-  "main": "index.js",
-  "repository": "https://github.com/jospooky/PostCSSPresentation.git",
-  "author": "<leopardclone@gmail.com>",
-  "license": "MIT",
-  "dependencies": {
-    "autoprefixer": "^8.6.5",
-    "gulp": "^3.9.1",
-    "gulp-postcss": "^7.0.1",
-    "postcss-australian-stylesheets": "^0.0.6",
-    "postcss-preset-env": "^5.2.1",
-    "precss": "^3.1.2",
-    "rucksack-css": "^1.0.2"
-  }
+	"name": "PostCSSPresentation",
+	"version": "1.0.0",
+	"main": "index.js",
+	"repository": "https://github.com/jospooky/PostCSSPresentation.git",
+	"author": "<leopardclone@gmail.com>",
+	"license": "MIT",
+	"dependencies": {
+		"autoprefixer": "^8.6.5",
+		"gulp": "^3.9.1",
+		"gulp-postcss": "^7.0.1",
+		"postcss-preset-env": "^5.2.1",
+		"postcss-trolling": "^0.1.7",
+		"precss": "^3.1.2",
+		"rucksack-css": "^1.0.2"
+	}
 }
