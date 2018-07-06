@@ -2,16 +2,15 @@ const gulp = require('gulp');
 const postcss = require('gulp-postcss')
 const precss = require('precss')
 const autoPrefixer = require('autoprefixer')
-const maccaCss = require('postcss-australian-stylesheets');
 const rucksack = require('rucksack-css');
 const postcssPresetEnv = require('postcss-preset-env');
 
-gulp.task('postcss', () => {
+
+gulp.task('default', () => {
 
 	const plugins = [
 		precss(),
 		autoPrefixer(),
-		maccaCss(),
 		rucksack(),
 		postcssPresetEnv()
 	]
