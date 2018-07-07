@@ -28,10 +28,11 @@ gulp.task('default', () => {
 				deg: 123
 			},
 			roulette: 4,
-			slowlyGrowText: {
-				time: '300s',
-				maxFontSize: '80pt'
-			},
+			// slowlyGrowText: {
+			// 	time: '300s',
+			// 	maxFontSize: '80pt'
+			// },
+			slowlyGrowText: false,
 			veryImportant: false,
 			wait: true,
 			zIndex: false
@@ -41,4 +42,8 @@ gulp.task('default', () => {
 	return gulp.src('./src/css/*.css')
 		.pipe(postcss(plugins))
 		.pipe(gulp.dest('./dest'))
+})
+
+gulp.task('watch', () => {
+	gulp.watch('src/css/*.css', ['default'])
 })

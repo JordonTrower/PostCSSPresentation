@@ -1,6 +1,7 @@
-$black: black;
+$black: #f4f4f4;
+
 body {
-	background-color: #f4f4f4;
+	background-color: $black;
 	color: #555555;
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 16px;
@@ -10,6 +11,7 @@ body {
 	line-height: 1.6em;
 	margin: 0;
 	box-shadow: solid 5px $black;
+	font-size: responsive;
 }
 
 a {
@@ -106,7 +108,7 @@ a:active {
 .categories li {
 	padding-bottom: 6px;
 	border-bottom: dotted 1px #333;
-	list-style-image: url('../images/check.png')
+	list-style-image: url('../images/check.png');
 }
 
 .my-form {
@@ -121,7 +123,7 @@ a:active {
 	display: block;
 }
 
-.my-form input[type="text"],
+.my-form input[type='text'],
 .my-form textarea {
 	padding: 8px;
 	width: 100%;
@@ -133,6 +135,7 @@ a:active {
 	border: 1px solid #ccc;
 	padding: 10px;
 	box-sizing: border-box;
+	font-size: responsive;
 }
 
 #main-block {
@@ -167,7 +170,7 @@ a:active {
 	position: absolute;
 	top: 100px;
 	left: 200px;
-	color: rgb(255, 255, 255)
+	color: rgb(255, 255, 255);
 }
 
 .p-box h2 {
